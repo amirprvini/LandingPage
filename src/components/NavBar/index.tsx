@@ -4,13 +4,13 @@ import { navItems } from '../../constants';
 interface navBarProps {}
 
 const NavBar: React.FC<navBarProps> = () : JSX.Element => {
-  return <div className="navBar bg-black text-white flex justify-between items-center border-b-2 border-gray-300 h-12 px-2">
+  return <div className="navBar bg-black text-white flex justify-between items-center border-b-2 border-gray-300 h-12 px-2 font-Poppins">
         
         <div className="logoWrapper flex space-x-4">
             <div className="logoIconWrapper">
                 <img src="./my-app/src/assets/logo.png" alt="headerLogo" />
             </div>
-            <h3 className="logoTitle"> Landing Page </h3>
+            <h3 className="logoTitle font-"> Landing Page </h3>
         </div>
 
         <div className="navBarItemsWrapper">
