@@ -4,7 +4,7 @@ import { navItems } from '../../constants'
 interface MobileNavBarProps {}
 
 const MobileNavBar:React.FC<MobileNavBarProps> = () : JSX.Element => {
-  return <div className='mobileNavBarWrapper text-white flex flex-col lg:hidden w-full h-max py-4 px-2 space-y-10'>
+  return <div className='mobileNavBarWrapper text-white bg-neutral-900 flex flex-col lg:hidden w-full h-max py-4 px-2 space-y-10'>
             <ul className="iltemsList flex flex-col gap-6 w-full items-center">
                 {navItems.map((navItem,index)=>{
                     return <li key={index}>

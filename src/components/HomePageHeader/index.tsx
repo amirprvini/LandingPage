@@ -20,10 +20,10 @@ const HomePageHeader:React.FC<HomePageHeaderProps> = () : JSX.Element => {
             </p>
         </div>
 
-        <div className="buttonsWrapper w-full flex justify-center space-x-6">
+        <div className="buttonsWrapper w-full flex justify-center flex-wrap space-x-6">
                 
-                <button className="px-4 py-2 rounded-md text-white bg-gradient-to-r from-orange-600 to-red-800">Start for free</button>
-                <button className='px-4 py-2 rounded-md text-white border'>Documentation</button>
+                <button className="px-4 py-2 scale-90 sm:scale-100 rounded-md text-white bg-gradient-to-r from-orange-600 to-red-800">Start for free</button>
+                <button className='px-4 py-2 scale-90 sm:scale-100 rounded-md text-white border'>Documentation</button>
         </div>
 
 
@@ -42,7 +42,7 @@ const HomePageHeader:React.FC<HomePageHeaderProps> = () : JSX.Element => {
             autoPlay 
             loop
             muted
-            className=' border border-orange-700 shadow-orange-500 w-1/2 rounded-md mx-2 my-1'>
+            className=' border border-orange-700 shadow-orange-500 w-1/2  rounded-md mx-2 my-1'>
                 <source src='./images/video2.mp4' type='video/mp4'/>
                 Your browser does not support the video tag.
             </video>
